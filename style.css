@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,100&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    padding-left: 20px;
+    width: 740px;
+}
+#My{
+    border-radius: 100px;
+    border: solid whitesmoke 2px;
+    
+}
+
+#insta{
+    width: 55px;
+    height: 40px;
+    padding: 2px;
+}
+
+#Whats{
+    width: 60px;
+    padding: 2px;
+}
+
+header{
+    display: inline-flex;
+    align-items: center;
+    padding-left: 30px;
+    background-color: #5250D4;
+    width: 700px;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+aside{
+    width: 220px; 
+    height: 200px;
+    position: fixed;
+    right: 100px;
+    left: 780px;
+    top: 1px;
+    margin: 10px;
+    background-color: #5250D4;
+    border-radius: 5px;
+    border: groove #ffffff 5px ;
+    padding: 10px;
+}
+#form{
+    display: inline;
+    align-items: center;
+    width: 220px; 
+    height: 250px;
+    position: fixed;
+    right: 100px;
+    left: 780px;
+    top: 260px;
+    margin: 10px;
+    background-color: #5250D4;
+    border-radius: 5px;
+    border: groove #ffffff 5px ;
+    padding: 10px;
+}
+
+input{
+    width: 100px;
+    margin: 2px;
+    color: black;
+    
+}
+#button{
+    height: 20px;
+    font-size: 10px;
+    margin: 5px;
+    background-color: #ffffff;
+}
+#button:hover{
+    background-color: #abaabb;
+}
+
+
+
+
+.com{
+    display: flex;
+    align-items: center;
+}
+
+.line{
+    border: solid white 1px;
+    margin: 10px;
+}
+
+#Name{
+    padding-left: 40px;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sobre{
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+mark{
+    background-color: #0e0a4b;
+    color: whitesmoke;
+    border: solid white 1px;
+    padding: 5px;
+}
+
+.letters{
+    color: whitesmoke;
+    padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+article{
+    background-color: #5250D4;
+    width: 720px;
+    height: 100px;
+    padding: 5px;
+    padding-bottom: 20px;
+    margin-top: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}   
+
+#experience{
+    background-color: #5250D4;
+    width: 720px;
+    height: 120px;
+    padding: 5px;
+    padding-bottom: 20px;
+    margin-top: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#education{
+    background-color: #5250D4;
+    width: 720px;
+    height: 180px;
+    padding: 5px;
+    padding-bottom: 20px;
+    margin-top: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#hability{
+    background-color: #5250D4;
+    width: 720px;
+    height: 170px;
+    padding: 5px;
+    padding-bottom: 20px;
+    margin-top: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+li{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+label{
+    color: white;
+}
