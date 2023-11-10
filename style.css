@@ -4,8 +4,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    padding-left: 20px;
+    
     width: 740px;
+    margin: auto;
 }
 #My{
     border-radius: 100px;
@@ -37,10 +38,6 @@ header{
 aside{
     width: 220px; 
     height: 200px;
-    position: fixed;
-    right: 100px;
-    left: 820px;
-    top: 1px;
     margin: 10px;
     background-color: #5250D4;
     border-radius: 5px;
@@ -52,17 +49,12 @@ aside{
     align-items: center;
     width: 220px; 
     height: 250px;
-    position: fixed;
-    right: 100px;
-    left: 820px;
-    top: 260px;
     margin: 10px;
     background-color: #5250D4;
     border-radius: 5px;
     border: groove #ffffff 5px ;
-    padding: 10px;
+    padding: 20px;
 }
-
 input{
     width: 100px;
     margin: 2px;
@@ -78,94 +70,85 @@ input{
 #button:hover{
     background-color: #abaabb;
 }
-
-
-
-
 .com{
     display: flex;
     align-items: center;
 }
-
 .line{
     border: solid white 1px;
     margin: 10px;
 }
-
 #Name{
     padding-left: 40px;
     font-size: 20px;
     color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
 }
-
 .sobre{
     font-size: 25px;
     color: whitesmoke;
 }
-
 mark{
     background-color: #0e0a4b;
     color: whitesmoke;
     border: solid white 1px;
     padding: 5px;
 }
-
 .letters{
     color: whitesmoke;
     padding-left: 10px;
     font-family: 'Montserrat', sans-serif;
 }
-
 article{
     background-color: #5250D4;
     width: 720px;
     height: 100px;
-    padding: 5px;
+    padding: 10px;
     padding-bottom: 20px;
     margin-top: 5px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }   
-
 #experience{
     background-color: #5250D4;
     width: 720px;
     height: 120px;
-    padding: 5px;
+    padding: 10px;
     padding-bottom: 20px;
     margin-top: 5px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-
 #education{
     background-color: #5250D4;
     width: 720px;
     height: 180px;
-    padding: 5px;
+    padding: 10px;
     padding-bottom: 20px;
     margin-top: 5px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-
 #hability{
     background-color: #5250D4;
     width: 720px;
     height: 170px;
-    padding: 5px;
+    padding: 10px;
     padding-bottom: 20px;
     margin-top: 5px;
+    padding-bottom: 35px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-
 li{
     list-style: none;
     font-family: 'Montserrat', sans-serif;
 }
-
 label{
     color: white;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
